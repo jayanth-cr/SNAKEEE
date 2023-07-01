@@ -1,0 +1,54 @@
+.board__wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.board{
+    display: flex;
+    flex-direction: column;
+}
+.board__row{
+    display: flex;
+    flex-direction: row;
+}
+.board__cube{
+    display: inline-block;
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+    margin: 2px;
+    border:1px solid white;
+}
+.snake__head{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+.snake__body{
+    height: 100%;
+    width: 100%;
+    background-color: #007BFF;
+}
+.snake__tail{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+.food__normal{
+    height: 100%;
+    width: 100%;
+    background-color: lime;
+}
+.food__special{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+}
+.grid__wall{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
